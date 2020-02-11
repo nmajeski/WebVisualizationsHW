@@ -1,0 +1,165 @@
+html, body {
+    background-color: #EDEDED;
+    margin: 0;
+    padding: 0;
+}
+.navbar-sm {
+    background-color: #4CA8A3;
+    padding-top: 0;
+    padding-bottom: 0;
+    visibility: visible;
+}
+.navbar-lg {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    visibility: hidden;
+}
+@media(min-width: 992px) {
+    .navbar-sm {
+        height: 0;
+        margin: 0;
+        padding: 0;
+        visibility: hidden;
+    }
+    .navbar-lg {
+        background-color: white;
+        height: 100%;
+        padding-top: 1px;
+        visibility: visible;
+    }
+}
+.navbar-light .navbar-brand {
+    color: white;
+}
+.navbar-light .navbar-brand:hover {
+    color: white;
+}
+.navbar-collapse-sm-menu {
+    margin-left: -16px;
+    margin-right: -16px;
+}
+.lattitude {
+    background-color: #4CA8A3;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-left: 75px;
+    padding: 7px 15px;
+}
+ul {
+    margin-right: 30px;
+}
+li {
+    display: inline;
+    padding-left: 15px;
+}
+.container {
+    max-width: 100%;
+}
+.container div h1 {
+    color: #4CA8A3;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: bolder;
+}
+.container div h2 {
+    color: #4CA8A3;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: bolder;
+}
+@media(min-width: 1400px) {
+    .container div h2 {
+        font-size: 24px;
+    }
+}
+.row {
+    margin: 25px;
+}
+@media(min-width: 1200px) {
+    .row {
+        margin: 50px;
+    }
+}
+.summary, .visualization-summary {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 35px 25px 10px 25px;
+}
+.summary img {
+    float: left;
+    width: 275px;
+    height: 184px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.summary p {
+    margin-bottom: 40px;
+}
+.visualizations {
+    background-color: white;
+    margin-bottom: 50px;
+    padding: 35px 25px;
+}
+.visualizations div {
+    text-align: center;
+}
+.visualizations img {
+    height: 120px;
+}
+.summary hr, .visualizations hr {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.comparison, .data {
+    background: white;
+    margin-bottom: 50px;
+    padding: 50px;
+}
+.comparison div span {
+    text-align: center;
+    width: 100%;
+}
+@media(min-width: 1400px) {
+    .comparison div span {
+        width: 50%;
+    }
+}
+.comparison img {
+    height: 350px;
+}
+.data-table {
+    margin: 0 auto;
+    width: 100%;
+}
+.dataframe {
+    border-collapse: collapse;
+    font-size: 11pt; 
+    text-align: center;
+}
+.dataframe th {
+    font-weight: bold;
+}
+td, th {
+    text-align: center;
+}
+footer {
+    bottom: 0px;
+    color: white;
+    font-size: small;
+    height: 50px;
+    padding-top: 15px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+}
+.footer-hr {
+    background-color: #4CA8A3;
+    bottom: 34px;
+    height: 4px;
+    margin-top: 60px;
+    position: fixed;
+    width: 100%;
+}
